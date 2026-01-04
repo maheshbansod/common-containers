@@ -1,6 +1,10 @@
 {
   "tasks": {
     "pg-create-db": "deno run --allow-net --allow-env scripts/postgres/create-db.ts",
-    "pg-list-db": "deno run --allow-net --allow-env scripts/postgres/list-db.ts"
+    "pg-list-db": "deno run --allow-net --allow-env scripts/postgres/list-db.ts",
+    "generate-dotenv": "deno run --allow-read scripts/generate-dotenv.ts"
+  },
+  "imports": {
+    "@std/toml": "jsr:@std/toml@^1.0.11"
   }
 }

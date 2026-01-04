@@ -1,0 +1,18 @@
+[postgres]
+host = "localhost"
+port = 5432
+default_user = "postgres"
+default_password = "postgres"
+default_database = "postgres"
+
+[mongodb]
+host = "localhost"
+port = 27017
+default_user = "admin"
+default_password = "admin"
+auth_database = "admin"
+
+[redis]
+host = "localhost"
+port = 6379
+default_password = ""
